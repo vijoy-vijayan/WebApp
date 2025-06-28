@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Semantic HTML Example</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <h1>Aquarium</h1>
+            <nav>
+                <a href="/">Home</a> |
+                <a href="/about">About</a> |
+                <a href="/contact">Contact</a>
+                <a href="https://churchillwild.com/arctic-fox-fun-facts/">Site Reference</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <article>
+            <h2>Arctic Fox</h2>
+            <p><strong>The Arctic fox (Vulpes lagopus)</strong>, also known as the <em>white fox</em>, polar fox, or
+                snow fox, is a small species of fox native to the Arctic regions of the Northern Hemisphere and common
+                throughout the Arctic tundra biome. It is well adapted to living in cold environments, and is best known
+                for its thick, warm fur that is also used as camouflage. It has a large and very fluffy tail.</p>
+
+            <img src="./Assets/pics/ArcticFox.jpg" alt="Arctic Fox" width="200" height="200">
+            <a href="about.html">About html</a>
+            <p>How the Arctic Fox Survives Frigid Temps. To know more, <a
+                    href="https://animals.howstuffworks.com/mammals/arctic-fox.htm" target="_parent">Check here</a></p>
+        </article>
+
+        <section>
+            <h2>Favourite Pets at Home</h2>
+            <ul>
+                <li>Robin</li>
+                <li>Bulbul</li>
+                <li>Drongo</li>
+            </ul>
+            <ol>
+                <li><span>Indian Silverbill</span></li>
+                <li>Angel Fish</li>
+                <li>House Sparrow</li>
+            </ol>
+
+            <h2>My Friends</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Designation</th>
+                        <th>City</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>VM</td>
+                        <td>Preventive Officer</td>
+                        <td>Chennai</td>
+                    </tr>
+                    <tr>
+                        <td>Sakthi</td>
+                        <td>Manager</td>
+                        <td>Coimbatore</td>
+                    </tr>
+                    <tr>
+                        <td>Nithish</td>
+                        <td>Developer</td>
+                        <td>Tirupur</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h2>Registration Form</h2>
+            <form action="">
+                <label for="firstname">First Name:</label><br>
+                <input type="text" id="firstname" name="first_name" placeholder="Enter your first name"
+                    required><br><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" placeholder="Enter your Email"><br><br>
+                <label for="password">Password:</label><br>
+                <input type="password" name="password" id="password"><br><br>
+
+                <label for="gender">Gender</label>
+                <input type="radio" id="gender" name="gender">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender">
+                <label for="female">Female</label><br><br>
+                <label for="comments">Comments:</label><br>
+                <textarea name="comments" id="comments" rows="5" cols="40"></textarea><br><br>
+
+                <label for="colour">Favourite Colour:</label><br>
+                <select id="colour" name="favColour">
+                    <option value="">--Please choose the Colour--</option>
+                    <option value="green">Green</option>
+                    <option value="black">Black</option>
+                    <option value="white">White</option>
+                    <option value="orange">Orange</option>
+                </select><br><br>
+
+                <input type="checkbox" id="terms" name="subscribe_terms" value="yes">
+                <label for="terms">Agree to Terms and Conditions</label><br><br>
+
+                <input type="submit" value="Send Message">
+
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My Website</p>
+    </footer>
+</body>
+
+</html>
