@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Online Dashboard</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles_lab5.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Online shop Admin Dashboard</h1>
+        <p>Welcome to the admin dashboard of our online shopping platform.</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#dashboard">Dashboard</a></li>
+            <li><a href="#orders">Orders</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#customers">Customers</a></li>
+            <li><a href="#reports">Reports</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <hr />
+        <section id="dashboard">
+            <h1>Dashboard Overview</h1>
+        </section>
+        <p>Here you can see the quick overview of the store performance</p>
+        <hr />
+
+        <section id="orders">
+            <h1>Recent Orders</h1>
+
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Order ID</th>
+                        <th>Customer</th>
+                        <th>Amount</th>
+                    </tr>
+
+                </thead>
+                <tr>
+                    <td>1001</td>
+                    <td>Alice</td>
+                    <td>$250</td>
+                </tr>
+                <tr>
+                    <td>1002</td>
+                    <td>Bob</td>
+                    <td>$150</td>
+                </tr>
+                <tr>
+                    <td>1003</td>
+                    <td>Charlie</td>
+                    <td>$320</td>
+                </tr>
+                <tbody>
+
+                </tbody>
+            </table><br>
+            <hr />
+        </section>
+        <section id="products">
+            <h1>Products</h1>
+            <ul>
+                <li>Wireless Mouse</li>
+                <li>Bluetooth Headphones</li>
+                <li>USB Charger</li>
+                <li>Laptop Stand</li>
+                <li>External Hard Drive</li>
+            </ul>
+            <hr />
+        </section>
+        <section id="media">
+            <h2>Product Media</h2>
+            <img src="ArcticFox.jpg" height="200px" width="200px" alt="Arctic Fox"><br><br>
+            <iframe width="300" height="315" src="https://www.youtube.com/embed/k2kiyWu_XNc?controls=1" frameborder="0"
+                allowfullscreen>
+            </iframe>
+            <hr />
+        </section>
+
+        <section id="contact">
+            <h2>Contact us</h2>
+            <form action="">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name"><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email"><br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea name="msg" id="message"></textarea><br><br>
+
+                <input type="submit" name="submit" id="submit"><br>
+            </form>
+            <hr />
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy;copyright. Online shop. All rights reserved</p>
+        <p>Contact us: contact@contact.com</p>
+
+    </footer>
+
+</body>
+
+</html>
